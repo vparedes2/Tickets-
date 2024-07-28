@@ -3,7 +3,9 @@
     "description": "Ticket management system",
     "type": "project",
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.4|^8.0",
+        "ext-pdo": "*",
+        "ext-pdo_pgsql": "*"
     },
     "autoload": {
         "psr-4": {
